@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+*{
+    margin:  0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+.container {
+    width: 80%;
+    margin:3rem auto;
+
+}
+.hero{
+    position: relative;
+    width: 100%;
+    display: flex;
+
+}
+.details-left{
+    padding-left: 10%;
+}
+
+ #navbarSupportedContent{
+    padding-left:55%;
+}
+
+.navbar-brand{
+    color:orange !important;
+    font-family: 'Square Peg', cursive;
+    font-weight: 1000;
+    font-size: 2rem;
+    
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+#a1{
+    height: 3rem;
+    width: 3rem;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    padding:10px 0 ;
+    width: 84%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+
+.details h1{
+    font-size: 50px;
+    color: #212121;
+    
+}
+
+span{
+    color: orange;
+}
+.details{
+    display: flex;
+
+}
+.details-left{
+    flex: 50%;  
+    text-align: justify;
+    margin-top: 3rem;
+}
+.details-right{
+    flex: 50%;
+}
+.details p{
+    color: #555;
+    line-height: 22px;
+    margin-top: 2rem;
+}
+
+
+.details a{
+    background: #212121;
+    padding: 10px 18px;
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.images{
+    height: 60vh;
+    margin-top: 3rem;
+    left: 3rem;
+    
+}
+.oval {
+    height: 250px;
+    width: 500px;
+    border: 15px solid orange;
+    background-color:transparent;
+    border-radius: 50%;
+    transform: rotate(-35deg);
+    margin-top: 10rem;
+    margin-right: 5rem;
+  }
+
+#img2{
+    height: 25rem;
+    width: 20rem;
+    position: absolute;
+    left: 61rem;
+    top: 10rem;
+    visibility: hidden;
+}
+
+.images:hover .boy{
+    left: 5%; 
+}
+
+.fa-brands{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #000;
+}
+
+.ab1{
+    text-align: center;
+    text-decoration: solid;
+    font-size: large;
+    font-family: sans-serif;       
+    margin-top: 2rem;
+}
+
+#ab2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: orange;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#p2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: orange;
+    margin-top: 2rem;
+}
+
+.p3{
+    width:100%;
+    font-family: sans-serif;
+    /* border: 2px solid red; */
+    padding: 2rem;
+    background: #faf9fb;
+    color:#000;
+    margin-top:40px;
+
+}
+.p3:hover{
+    transform: scale(0.9);
+    transition: 0.5s ease;
+
+}
+.p1{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin: 2px auto;
+    /* border: 2px solid red; */
+    gap: 20px;
+    
+    
+}
+#p4{
+    text-align: center;
+    font-size: larger;
+}
+
+#p1-item{
+    border: 2px solid #000;
+}
+#p2-item{
+    border: 2px solid #000;
+}
+
+#p3-item{
+    border: 2px solid #000;
+}
+
+#p4-item{
+    border: 2px solid #000;
+}
+
+
+#c1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: orange;
+    margin-top: 2rem;
+    
+}
+
+#c2{
+    color:darkgreen;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#ci1{
+    text-align: center;
+    font-family: italic;
+    font-size: x-large;
+    color: #04AA6D;
+}
+
+#ci2{
+    text-align: center;
+    font-family: italic;
+    font-size: large;
+    color: #000;
+}
+@media screen and (max-width:1024px) {
+
+.container{
+    background: red;
+}
+.details{
+    display: flex;
+}
+    
+}
+@media screen and(max-width:600px){
+    .container{
+        background: green;
+    }
+}
